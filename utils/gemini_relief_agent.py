@@ -368,24 +368,19 @@ def run_demo():
 
 
 # ==========================
-# Streamlit Integration
+# React Integration
 # ==========================
 
-def get_relief_plan_for_streamlit(
-    disaster_type: str,
-    location: str,
-    severity: str,
-    authenticity: str,
-    original_report: str
-) -> str:
+def get_relief_plan_for_frontend(
+    disaster_type, location, severity, map_data=None, groq_api_key=None,
+    model_name="llama3-8b-8192"
+):
     """
-    Wrapper for Streamlit integration.
-    Call this from your Streamlit page to get the briefing text directly.
-
-    Example usage in Streamlit:
-        from groq_relief_agent import get_relief_plan_for_streamlit
-        result = get_relief_plan_for_streamlit(...)
-        st.markdown(result)
+    Wrapper for React integration.
+    Call this from your API to get the briefing text directly.
+    Example usage in API:
+        from gemini_relief_agent import get_relief_plan_for_frontend
+        result = get_relief_plan_for_frontend(...)
     """
     return generate_relief_plan(
         disaster_type=disaster_type,
