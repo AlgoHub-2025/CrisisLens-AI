@@ -131,9 +131,9 @@ Focused on AI-driven civic innovation and real-world problem solving.
 ## 📎 Links
 
 * GitHub Repository: https://github.com/AlgoHub-2025/CrisisLens-AI
-* Live Demo: (add link)
-* Presentation: (add link)
-* Demo Video: (add link)
+* Live Demo: (https://youtu.be/Q8JurxvCxWo)
+* Presentation: (https://docs.google.com/presentation/d/16lamLVeksPFl6aMbrPaj9fyP2A5R8QeD_B_CgWcSipc/edit?usp=sharing)
+* Demo Video: (https://youtu.be/Q8JurxvCxWo)
 
 ---
 
